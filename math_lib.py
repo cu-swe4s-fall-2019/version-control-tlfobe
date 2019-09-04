@@ -53,7 +53,7 @@ def diff(a, b):
     -------
     d : float
         difference between a and b
-    """"
+    """
 
     return a - b
 
