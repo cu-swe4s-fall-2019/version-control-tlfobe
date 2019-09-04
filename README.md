@@ -16,4 +16,5 @@ And the program will print the average of the numbers supplied
 - Added docstrings for the `math_lib` library and functions
 - Handled divide by 0 error with if statement, returns None and prints warning
 - Added add, sum and multiply methods to `math_lib`
-- Added Average program that can be run from the command line
+- Added Average program that can be run from the command 
+- Added `run.sh` file that runs average program with different types of input
