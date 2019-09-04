@@ -10,8 +10,8 @@ def div(a, b):
 
     Argumnets
     ---------
-    a : float
-    b : float
+    a : int, float
+    b : int, float
 
     Returns
     -------
@@ -23,3 +23,53 @@ def div(a, b):
         return None
     else:
         return a/b
+
+def add(a, b):
+    """
+    Takes the sum of two numbers
+
+    Arguments
+    ---------
+    a : int, float
+    b : int, float
+
+    Returns
+    -------
+    s : float
+        sum of a and b
+    """
+    return a + b
+
+def diff(a, b):
+    """
+    Takes the difference of two numbers
+
+    Arguments
+    ---------
+    a : int, float
+    b : int, float
+
+    Returns
+    -------
+    d : float
+        difference between a and b
+    """"
+
+    return a - b
+
+def multiply(a, b):
+    """
+    Takes the product of two numbers
+    
+    Arguments
+    ---------
+    a : int, float
+    b : int, float
+    
+    Returns
+    -------
+    m : float
+
+    """
+
+    return a * b
