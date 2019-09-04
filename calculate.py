@@ -33,7 +33,8 @@ def main():
 
     args = parser.parse_args()
     calc_average = average(args.average)
-
+    str_list = [str(flt) for flt in args.average]
+    print("Input List :", ', '.join(str_list))
     print("Average =", calc_average)
 
 
